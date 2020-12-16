@@ -59,6 +59,5 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
+* Thank you to [Hipster Ipsum](https://hipsum.co/)
 * etc

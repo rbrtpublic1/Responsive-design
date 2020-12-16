@@ -9,11 +9,14 @@
 </head>
 
 <body>
+  <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <div class="col col-md-8">
+                <!-- Required a nowrap due to longer name -->
                 <a class="navbar-brand-alt text-nowrap" href="index.html">Robert Schramm</a>
             </div>
+            <!-- Navbar items aligned to thee right -->
             <div class="col col-md-2"></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,20 +34,21 @@
                     </li>
                 </ul>
             </div>
-            </div>
+          </div>
         </div>
     </nav>
 
     <div class="bg" style="background-image: url(Assets/Background.jpeg); background-size: auto; background-position: center center;">
 
         <div class="container">
-            <div class="row">
+            <main class="row">
               <div class="col-md-8">
                 <div class="card mt-5 mb-5">
-                  <div class="card-body">
+                  <section class="card-body">
                       <h1 class="card-title border-bottom py-5 mb-5">Contact</h1>
                       <div class="col-sm-8">
                         <form>
+                          <!-- Customized email and name forms to allow for title to appear above fields -->
                           <div class="form-group row px-4">
                             <label for="inputName3">Name</label>
                               <input type="name" class="form-control" id="inputname" placeholder="Name">
@@ -65,15 +69,15 @@
                         </form>
                       </div> 
                     </div>
-                  </div>
+                  </section>
                 </div>
               </div>
-            </div>
+            </main>
     </div>
-
+    <!-- sticky footer! -->
     <footer class="footer-copyright-light bg-dark text-center mt-5 py-4">
         <p>© Copyright 2020 Robert Schramm</p>
-    </div> 
+    </footer> 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
