@@ -4,7 +4,8 @@ This site is an example of a responsive design that ensures compatibility with l
 
 Using a combination Html, CSS, and Bootstrap 5.0, I was able to quickly create a rich responsive site with the built-in break points, forms, navbar, footer, and card Bootstrap elements. Minor styling and layout elements were specified in the external stylesheet but Bootstrap did much of the heavy lifting in this particular area.
 
-### Built With
+---------
+## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -12,9 +13,36 @@ Using a combination Html, CSS, and Bootstrap 5.0, I was able to quickly create a
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 
-### Code Snippets
-```html
+-----
+## Code Snippets
 
+**Portfolio Page Bootstrap Usage:**
+```html
+<main class="row">
+        <!-- Gettn busy with the grids and subgrids -->
+        <div class="col-md-8">
+        <div class="card mt-5 mb-5">
+            <div class="card-body">
+            <h1 class="card-title border-bottom py-5 mb-5">Portfolio</h1>
+            <!-- Gutter added -->
+            <div class="row row-md-1 row-lg-2 g-4 py-5">
+                <div class="col-md-11 col-lg-6">
+                <section class="card mb-5">
+                    <img src="https://via.placeholder.com/350x350" class="card-img-top" alt="Portfolio-Element-1">
+                        
+```
+
+**Bootstrap Code Proving Flexible on Contact Page:**
+```html
+        <form>
+            <!-- Customized email and name forms to allow for title to appear above fields -->
+            <div class="form-group row px-4">
+            <label for="inputName3">Name</label>
+                <input type="name" class="form-control" id="inputname" placeholder="Name">
+            </div>
+            <div class="form-group row px-4">
+            <label for="inputEmail3">Email</label>
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
 ```
 
 ### Deployed Link
@@ -23,7 +51,7 @@ Using a combination Html, CSS, and Bootstrap 5.0, I was able to quickly create a
 
 ### On GitHub
 
-  [Repository Link](https://github.com/rbrtpublic1/Responsive-design)
+* [Repository Link](https://github.com/rbrtpublic1/Responsive-design)
 
 ### Author: *Robert Schramm*
 - [LinkedIn](https://www.linkedin.com/in/robertwschramm/)
@@ -60,4 +88,3 @@ This project is licensed under the MIT License
 ## Acknowledgments
 
 * Thank you to [Hipster Ipsum](https://hipsum.co/)
-* etc
