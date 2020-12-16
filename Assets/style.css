@@ -35,13 +35,3 @@ h1 {
     margin-right: 15px;
     margin-bottom: 15px;
   }
-
-  a:hover {
-      background-color: darkcyan;
-      color: white;
-  }
-
-  a:active {
-    background-color: darkcyan;
-    color: black;
-  }
