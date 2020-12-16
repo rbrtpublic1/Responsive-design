@@ -1,3 +1,12 @@
+p {
+    float: left;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+    color: darkcyan;
+}
 .navbar-brand-alt {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
@@ -10,7 +19,17 @@
     width: 100%;
     position: fixed;
     bottom: 0%;
-    left: 0%;
     margin-top: 30px;
     border-top: solid 10px darkcyan;
+}
+
+.bg {
+    position: relative;
+    margin-bottom: 75px;
+}
+
+#headshot {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
