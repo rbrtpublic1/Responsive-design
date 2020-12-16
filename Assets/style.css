@@ -1,6 +1,3 @@
-p {
-    float: left;
-}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,13 +20,22 @@ h1 {
     border-top: solid 10px darkcyan;
 }
 
+.card {
+    margin-bottom: 100px;
+}
+
 .bg {
     position: relative;
     margin-bottom: 75px;
 }
 
+.btn-lg {
+    background-color: darkcyan;
+    border-color: darkcyan;
+  }
+
 #headshot {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
-}
+  }
